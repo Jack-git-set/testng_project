@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" name = "TestNG_Suite">
+	<test name = "TestNG_Test">
+	<parameter name= "JIRA" value="https://web.openrainbow.com/"></parameter>
+	<parameter name= "Browser" value="Firef"></parameter>
+	<classes>
+		<class  name = "maven_project.Home_page_test_case_1"></class>
+		<class  name = "maven_project.TC_2_Login"></class>
+	<!--	<class name = "maven_project.Testcase2">
+		    <methods>
+				<include name= "create_bubble"> </include>
+				
+		   </methods>
+			 -->
+		
+	</classes>
+</test>
+</suite>
+
+<!-- 
+<test name = "TestNG_Test1">
+	<classes>
+		<class  name = "maven_project.Testcase1"></class>
+		<class name = "maven_project.Testcase2">
+		   <methods>
+				<include name= "create_bubble"> </include>
+				<include name= "make_videocall"> </include>	
+		   </methods>
+		</class>
+	</classes>
+</test> -->

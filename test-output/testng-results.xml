@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-16T21:27:21 IST" name="TestNG_Suite" finished-at="2021-06-16T21:27:36 IST" duration-ms="14382">
+    <groups>
+    </groups>
+    <test started-at="2021-06-16T21:27:21 IST" name="TestNG_Test" finished-at="2021-06-16T21:27:36 IST" duration-ms="14382">
+      <class name="maven_project.Home_page_test_case_1">
+        <test-method is-config="true" signature="selenium_include(java.lang.String)[pri:0, instance:maven_project.Home_page_test_case_1@24105dc5]" started-at="2021-06-16T21:27:21 IST" name="selenium_include" finished-at="2021-06-16T21:27:24 IST" duration-ms="2449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selenium_include -->
+        <test-method signature="m4(java.lang.String,java.lang.String)[pri:0, instance:maven_project.Home_page_test_case_1@24105dc5]" started-at="2021-06-16T21:27:24 IST" name="m4" finished-at="2021-06-16T21:27:30 IST" duration-ms="6362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://web.openrainbow.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Firef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+        <test-method signature="username_entered()[pri:0, instance:maven_project.Home_page_test_case_1@24105dc5]" started-at="2021-06-16T21:27:30 IST" name="username_entered" finished-at="2021-06-16T21:27:36 IST" duration-ms="5539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- username_entered -->
+        <test-method is-config="true" signature="m55()[pri:0, instance:maven_project.Home_page_test_case_1@24105dc5]" started-at="2021-06-16T21:27:36 IST" name="m55" finished-at="2021-06-16T21:27:36 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m55 -->
+      </class> <!-- maven_project.Home_page_test_case_1 -->
+    </test> <!-- TestNG_Test -->
+  </suite> <!-- TestNG_Suite -->
+</testng-results>
